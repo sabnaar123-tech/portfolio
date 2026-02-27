@@ -1,0 +1,93 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:white;
+}
+
+/* Main container */
+.container {
+    background-color: rgb(255,255, 255,0.03);
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+}
+
+/* Labels */
+label {
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #4e73df;
+    outline: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #2e59d9;
+}
+
+/* Bottom link section */
+.signup {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Link style */
+.signup a {
+    text-decoration: none;
+    color: #4e73df;
+    font-weight: bold;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}

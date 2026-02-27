@@ -1,37 +1,59 @@
 body {
-    font-family: Arial, Helvatica, sans-serif;
-    background-color:#0f172a;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     color:white;
 }
-.project_container{
-    background-color: rgba(255, 255, 255, 0.03);
+
+.container {
+    background-color: rgb(255,255, 255,0.03);
     padding: 30px;
-    border-radius:  20px;
-    text-align: center;
-    min-height: 200px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
- p{
-    color: #a5a6d1;
- }
- .date_input{
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.03);
-    color:white;
-    width: 80%;
-    border-width: 1px;
-    border-color: #6366f1;
- }
- .fetch_result{
-    background-color: #6366f1 ;
-    color: white;
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
     margin-top: 10px;
+}
+
+input {
+    width: 90%;
     padding: 10px;
-    width: 40%;
-    border-width: 0px;
-    border-radius: 5px;
- }
+    margin-top: 5px;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+
